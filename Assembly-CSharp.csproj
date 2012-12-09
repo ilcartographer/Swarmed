@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{F0F663A9-20C1-231C-D928-F34B0D15FB07}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Camera\SmoothCamera2dBoss.cs" />
+     <Compile Include="Assets\Scripts\Custom\2D\EndPoint.cs" />
+     <Compile Include="Assets\Scripts\Custom\2D\SmoothCamera2D.cs" />
+     <Compile Include="Assets\Scripts\Custom\2D\StartPoint.cs" />
+     <Compile Include="Assets\Scripts\Custom\AI\AutoFire.cs" />
+     <Compile Include="Assets\Scripts\Custom\AI\BasicBullet.cs" />
+     <Compile Include="Assets\Scripts\Custom\AI\BossEnemy.cs" />
+     <Compile Include="Assets\Scripts\Custom\AI\ChasingEnemy.cs" />
+     <Compile Include="Assets\Scripts\Custom\AI\FlyerEnemy.cs" />
+     <Compile Include="Assets\Scripts\Custom\AI\SwarmEnemy.cs" />
+     <Compile Include="Assets\Scripts\Custom\Collectables\HealthPickup.cs" />
+     <Compile Include="Assets\Scripts\Custom\Collectables\ScorePickup.cs" />
+     <Compile Include="Assets\Scripts\Custom\Helper.cs" />
+     <Compile Include="Assets\Scripts\Custom\LevelTimer.cs" />
+     <Compile Include="Assets\Scripts\Custom\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Custom\NextLevel.cs" />
+     <Compile Include="Assets\Scripts\Custom\Player\ImpactReceiver.cs" />
+     <Compile Include="Assets\Scripts\Custom\Player\PlayerCollision.cs" />
+     <Compile Include="Assets\Scripts\Custom\Player\PlayerStatus.cs" />
+     <Compile Include="Assets\Scripts\Custom\Player\Watergun.cs" />
+     <Compile Include="Assets\Scripts\Custom\UpdateGUI.cs" />
+     <Compile Include="Assets\Scripts\Enviroment\BackgroundManagerParallax.cs" />
+     <Compile Include="Assets\Scripts\Enviroment\BackgroundManagerStatic.cs" />
+     <Compile Include="Assets\Scripts\Enviroment\RunSurfaceManager.cs" />
+     <Compile Include="Assets\Scripts\Enviroment\TidyManager.cs" />
+     <Compile Include="Assets\Scripts\Pickups\GenericPickup.cs" />
+     <Compile Include="Assets\Scripts\Pickups\WatergunBarrel.cs" />
+     <Compile Include="Assets\Tidy Tile Mapper\API Examples\LevelGeneration\LevelGenerator.cs" />
+     <Compile Include="Assets\Tidy Tile Mapper\API Examples\LevelGeneration\LevelGenerators\PerlinGenerator.cs" />
+     <Compile Include="Assets\Tidy Tile Mapper\API Examples\LevelGeneration\Runtime_Demo.cs" />
+     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\AnimationHandling\AnimationPackage.cs" />
+     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\Entity.cs" />
+     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\EntityController.cs" />
+     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\EntityTemplates\PathingEntity.cs" />
+     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\EntityTemplates\PatrollingEntity.cs" />
+     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\EntityTemplates\PlatformerEntity.cs" />
+     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\EntityTypes\FreeRoamPlatformEntity.cs" />
+     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\EntityTypes\OCDPatrollingEntity.cs" />
+     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\EntityTypes\PlatformerPlayer.cs" />
+     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\EntityTypes\RandomPathingEntity.cs" />
+     <Compile Include="Assets\Tidy Tile Mapper\Tidy Streaming Maps\Example\StreamingRunner.cs" />
+     <Compile Include="Assets\Tidy Tile Mapper\Tidy Streaming Maps\StreamingMap.cs" />
+     <Compile Include="Assets\Tidy Tile Mapper\Tidy Streaming Maps\StreamingMapColorProfile.cs" />
+     <None Include="Assets\Music\links.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Tidy Tile Mapper\readme.txt" />
+     <None Include="Assets\Artwork\image_sources.txt" />
+ <Reference Include="TidyTileMapper">
+ <HintPath>Assets\Tidy Tile Mapper\Mapping\TidyTileMapper.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{021584F5-D410-7FCA-6E95-CE6B7BD74C17}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{7888A03E-8532-60D6-C818-84FE112132AB}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

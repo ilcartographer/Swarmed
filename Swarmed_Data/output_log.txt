@@ -1,0 +1,33 @@
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 8.17.12.7642]
+    Renderer: NVIDIA Quadro NVS 420
+    Vendor:   NVIDIA
+    VRAM:     2022 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 DF24=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+desktop: 1920x1200 59Hz; virtual: 5760x1200 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+Initialize engine version: 3.5.5f3
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\daniel.QX.NET\Documents\My Dropbox\Class\CS499unshared\CS499-Game\Swarmed_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\daniel.QX.NET\Documents\My Dropbox\Class\CS499unshared\CS499-Game\Swarmed_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\daniel.QX.NET\Documents\My Dropbox\Class\CS499unshared\CS499-Game\Swarmed_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\daniel.QX.NET\Documents\My Dropbox\Class\CS499unshared\CS499-Game\Swarmed_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\daniel.QX.NET\Documents\My Dropbox\Class\CS499unshared\CS499-Game\Swarmed_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\daniel.QX.NET\Documents\My Dropbox\Class\CS499unshared\CS499-Game\Swarmed_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\daniel.QX.NET\Documents\My Dropbox\Class\CS499unshared\CS499-Game\Swarmed_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\daniel.QX.NET\Documents\My Dropbox\Class\CS499unshared\CS499-Game\Swarmed_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\daniel.QX.NET\Documents\My Dropbox\Class\CS499unshared\CS499-Game\Swarmed_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\daniel.QX.NET\Documents\My Dropbox\Class\CS499unshared\CS499-Game\Swarmed_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\daniel.QX.NET\Documents\My Dropbox\Class\CS499unshared\CS499-Game\Swarmed_Data\Managed\TidyTileMapper.dll (this message is harmless)
+Loading C:\Users\daniel.QX.NET\Documents\My Dropbox\Class\CS499unshared\CS499-Game\Swarmed_Data\Managed\TidyTileMapper.dll into Unity Child Domain
+- Completed reload, in  0.069 seconds
+Platform assembly: C:\Users\daniel.QX.NET\Documents\My Dropbox\Class\CS499unshared\CS499-Game\Swarmed_Data\Managed\System.Core.dll (this message is harmless)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 11625. Operation took 10.475414 ms.
+Platform assembly: C:\Users\daniel.QX.NET\Documents\My Dropbox\Class\CS499unshared\CS499-Game\Swarmed_Data\Managed\Boo.Lang.dll (this message is harmless)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 180. Operation took 7.723291 ms.
