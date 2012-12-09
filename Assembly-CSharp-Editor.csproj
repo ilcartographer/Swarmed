@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{E2525603-FB37-518F-0AB3-B891CA5F969A}</ProjectGuid>
+	<ProjectGuid>{C9E7535F-05AE-6D4F-FF85-B712AA75EF64}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -55,22 +55,22 @@
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Tidy Tile Mapper\readme.txt" />
      <None Include="Assets\Artwork\image_sources.txt" />
- <Reference Include="TidyTileMapper">
- <HintPath>Assets\Tidy Tile Mapper\Mapping\TidyTileMapper.dll</HintPath>
- </Reference>
  <Reference Include="TidyTileMapper_Editor">
  <HintPath>Assets\Tidy Tile Mapper\Editor\Editor Logic\TidyTileMapper_Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="TidyTileMapper">
+ <HintPath>Assets\Tidy Tile Mapper\Mapping\TidyTileMapper.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{021584F5-D410-7FCA-6E95-CE6B7BD74C17}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{0FF29B82-EA0F-B92E-E781-09F980181638}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{7888A03E-8532-60D6-C818-84FE112132AB}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{0744D3B3-591E-A6D1-E107-AA0615DAB11D}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{F0F663A9-20C1-231C-D928-F34B0D15FB07}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{270CB8D2-C999-A106-13CD-1D61134DA5C7}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript.unityproj">
-      <Project>{F5F93778-0518-E830-02A4-A1C6D93099C8}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+      <Project>{4B3E893A-43EB-DCBC-58B3-43EB65F33280}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

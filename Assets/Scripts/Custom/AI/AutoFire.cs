@@ -40,7 +40,7 @@ public class AutoFire : MonoBehaviour {
 	
 	void FireBullet() {
 		// Get the direction to fire the bullet
-		Vector3 playerCenter = player.transform.position + player.center;
+		Vector3 playerCenter = player.transform.position + player.center * 2;
 		Vector3 bulletDirection = playerCenter - muzzle.position;
 		
 		// Create a new bullet to be fired
