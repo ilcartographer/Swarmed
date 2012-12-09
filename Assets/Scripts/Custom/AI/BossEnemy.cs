@@ -104,15 +104,16 @@ public class BossEnemy : MonoBehaviour {
 			
 		}
 		
+		
 		switch(currentHealth) {
 		case 3:
-			renderer.material.mainTexture = beeTextures[0];
+			transform.Find("MeanBee").renderer.material.mainTexture = beeTextures[0];
 			break;
 		case 2:
-			renderer.material.mainTexture = beeTextures[1];
+			transform.Find("MeanBee").renderer.material.mainTexture = beeTextures[1];
 			break;
 		case 1:
-			renderer.material.mainTexture = beeTextures[2];
+			transform.Find("MeanBee").renderer.material.mainTexture = beeTextures[2];
 			break;
 		default:
 			// Empty the bar, then destroy the Bee object
