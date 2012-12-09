@@ -14,12 +14,6 @@ public class ChasingEnemy : MonoBehaviour {
 		muzzle = currentEnemy.Find("Muzzle");
 	}
 
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-
 	// Update is called once per frame
 	void Update () {
 		// Get direction and magnitude to move the enemy

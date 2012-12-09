@@ -14,6 +14,7 @@ public class HealthPickup : MonoBehaviour {
         	transform.Rotate(0, rotationSpeed * Time.deltaTime, 0, Space.World);
 	}
 	
+	//Heal the player and increment his score
 	void OnTriggerEnter(Collider collision) {
 		// If a player collides with the pick up, heal him and increase the score
 		if(collision.transform.CompareTag("Player")) {

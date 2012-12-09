@@ -28,6 +28,8 @@ public class BossEnemy : MonoBehaviour {
 	public GUITexture beeHealthBarFill;
 	Rect _pixelInset;
 	public Transform player;
+	
+	public Texture2D[] beeTextures = new Texture2D[3];
 		
 	// Use this for initialization
 	void Start () {
@@ -104,13 +106,13 @@ public class BossEnemy : MonoBehaviour {
 		
 		switch(currentHealth) {
 		case 3:
-			renderer.material.color = new Color(.1f, .1f, .1f);
+			renderer.material.mainTexture = beeTextures[0];
 			break;
 		case 2:
-			renderer.material.color = new Color(.4f, .4f, .4f);
+			renderer.material.mainTexture = beeTextures[1];
 			break;
 		case 1:
-			renderer.material.color = new Color(.7f, .7f, .7f);
+			renderer.material.mainTexture = beeTextures[2];
 			break;
 		default:
 			// Empty the bar, then destroy the Bee object
@@ -137,14 +139,8 @@ public class BossEnemy : MonoBehaviour {
 					--currentHealth;
 					timeSinceLastHit = Time.time;
 				}
-				//When the player collides with the bee always make the player "jump" back.
-				/*
-				Vector3 impactVector = new Vector3(1, 1, 0);
-				if(player.velocity.x > 0) impactVector.x = -1;
-				if(player.velocity.y > 0) impactVector.y = -1;
-				*/
 				
-				// Better way, use actual physics.  A reflection vector will be equal to 
+				// A reflection vector will be equal to:
 				// Surface Normal + (Surface Normal + (-1 * Incoming Vector))
 				Vector3 beeNormal = new Vector3(0, 1, 0);
 				if(player.transform.position.y < gameObject.transform.position.y) beeNormal.y *= -1;
@@ -152,7 +148,6 @@ public class BossEnemy : MonoBehaviour {
 				Vector3 impactVector = beeNormal + (beeNormal - player.velocity.normalized);
 				print(impactVector);
 				ir.AddImpact(impactVector, 50);
-				//ir.AddImpact(new Vector3(1, 1, 0), 300);
 			}
 		}
 	}

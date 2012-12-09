@@ -18,9 +18,8 @@ public class BasicBullet : MonoBehaviour {
 		spawnTime = Time.time;
 	}
 	
-	// Update is called once per frame
 	void Update () {
-		// move the bullet in the specified direction by the total
+		// Move the bullet in the specified direction by the total
 		// distance (speed * time)
 		currentDistanceTravelled += speed;
 		bullet.Translate(direction * speed * Time.deltaTime);
@@ -51,6 +50,7 @@ public class BasicBullet : MonoBehaviour {
 			Destroy(gameObject);
 	}
 	
+	// On a player collision, damage the player
 	void PlayerCollision(GameObject player) {
 		player.SendMessage ("DoDamage", damage);
 		hasHitPlayer = true;

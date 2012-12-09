@@ -30,6 +30,7 @@ public class AutoFire : MonoBehaviour {
 		}
 	}
 	
+	// Stop the bee from firing
 	void DisableFire() {
 		isFiring = false;
 		foreach(GameObject bullet in GameObject.FindGameObjectsWithTag("Bullet"))

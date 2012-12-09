@@ -33,17 +33,15 @@ public class Watergun : MonoBehaviour {
 		}
 	}
 	
-	// Update is called once per frame
-	void Update () {
+	// If the gun is enabled, allow the player to fire the gun
+	void Update () {		
 		if(isEnabled) {
 			if(Input.GetAxis("Shoot") != 0 && !isKeyPressed) {
 				isKeyPressed = true;
-				ammoTextures[--ammoCount].enabled = false;	
+				ammoTextures[--ammoCount].enabled = false;
 			}
-			
 			if(Input.GetAxis("Shoot") == 0)
 				isKeyPressed = false;
 		}
 	}
-	
 }

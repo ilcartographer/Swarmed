@@ -5,18 +5,13 @@ public class FlyerEnemy : MonoBehaviour {
 	public float speed = 6.0f;
 	public int damage = 20;
 	bool hasBeenSeen = false;
-	// Use this for initialization
-	void Start () {
 	
-	}
-	
-	// Update is called once per frame
+	// The flyer doesn't do anything until it comes into view.
+	// When it does, it flies straight across the screen
 	void Update () {
 		if(hasBeenSeen)
 			gameObject.transform.Translate(Vector3.left * speed * Time.deltaTime, Space.World);
 	}
-	
-	
 	
 	void OnBecameVisible() {
 		hasBeenSeen = true;	

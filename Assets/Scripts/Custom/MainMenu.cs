@@ -6,7 +6,7 @@ public class MainMenu : MonoBehaviour {
 	public float areaWidth;
 	public float areaHeight;
 	
-	
+	// Render a menu to start the game
 	void OnGUI() {
 		GUI.skin = mainMenuSkin;
 		

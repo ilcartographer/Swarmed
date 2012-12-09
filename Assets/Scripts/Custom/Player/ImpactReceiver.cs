@@ -2,6 +2,8 @@ using UnityEngine;
 using System.Collections;
 
 // Borrowed from http://answers.unity3d.com/questions/242648/force-on-character-controller-knockback.html
+// Purpose of this script is to add a force to the player, since CharacterControllers
+// do not have physics applied to them
 
 public class ImpactReceiver : MonoBehaviour {
 	public float mass = 3.0f; // character's mass
