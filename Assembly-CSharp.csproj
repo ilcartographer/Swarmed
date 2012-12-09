@@ -63,13 +63,15 @@
      <Compile Include="Assets\Scripts\Custom\Player\ImpactReceiver.cs" />
      <Compile Include="Assets\Scripts\Custom\Player\PlayerCollision.cs" />
      <Compile Include="Assets\Scripts\Custom\Player\PlayerStatus.cs" />
-     <Compile Include="Assets\Scripts\Custom\Player\Watergun.cs" />
+     <Compile Include="Assets\Scripts\Custom\Player\Weapons\Watergun.cs" />
+     <Compile Include="Assets\Scripts\Custom\Player\Weapons\WatergunManager.cs" />
      <Compile Include="Assets\Scripts\Custom\UpdateGUI.cs" />
      <Compile Include="Assets\Scripts\Enviroment\BackgroundManagerParallax.cs" />
      <Compile Include="Assets\Scripts\Enviroment\BackgroundManagerStatic.cs" />
      <Compile Include="Assets\Scripts\Enviroment\RunSurfaceManager.cs" />
      <Compile Include="Assets\Scripts\Enviroment\TidyManager.cs" />
      <Compile Include="Assets\Scripts\Pickups\GenericPickup.cs" />
+     <Compile Include="Assets\Scripts\Pickups\GunPickup.cs" />
      <Compile Include="Assets\Scripts\Pickups\WatergunBarrel.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\API Examples\LevelGeneration\LevelGenerator.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\API Examples\LevelGeneration\LevelGenerators\PerlinGenerator.cs" />
