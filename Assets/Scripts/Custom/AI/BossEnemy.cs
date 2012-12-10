@@ -158,4 +158,8 @@ public class BossEnemy : MonoBehaviour {
 		newInset.width = MAX_BAR_WIDTH * (float)currentHealth / (float)MAX_HEALTH;
 		beeHealthBarFill.pixelInset = newInset;
 	}
+	
+	void DoDamage(int damage) {
+		currentHealth -= damage;	
+	}
 }
